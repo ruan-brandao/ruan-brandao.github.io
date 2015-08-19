@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: Sobre mim
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Sou um desenvolvedor Junior que vive em São Paulo. Desenvolvo aplicativos web com Rails e aplicações de linha de comando com Ruby e Shell Script. A maioria dos posts do blog é sobre desenvolvimento de software, tecnologia e outros aspectos deste ofício.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Também escrevo aqui sobre meus hobbies. Entre eles estão ler, assistir séries e tocar bateria.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Caso queira entrar em contato comigo, me [mande um e-mail](mailto:ruan.bernardo@gmail.com) ou fale comigo pelo [Twitter](https://twitter.com/RuanBrandao).
