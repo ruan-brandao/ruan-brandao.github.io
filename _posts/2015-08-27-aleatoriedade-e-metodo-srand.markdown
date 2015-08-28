@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aleatoriedade e Método srand"
+title:  "Aleatoriedade e O Método srand()"
 date:   2015-08-28 00:30:00
 categories: ruby aleatoriedade
 comments: true
