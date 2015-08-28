@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aleatoriedade e O Método srand()"
+title:  "Aleatoriedade e o método srand()"
 date:   2015-08-28 00:30:00
 categories: ruby aleatoriedade
 comments: true
@@ -50,3 +50,6 @@ Note que a última sequência gerada (logo após redefinir o seed) é idêntica 
 
 ### PS*
 Há equipamentos de hardware que conseguem, com base na observação de acontecimentos físicos, gerar sequencias realmente aleatórias. Porém, para o tópico preferi focar nas características de software.
+
+### PS**
+Caso se interesse mais pelo assunto do post, recomendo fortemente o livro ["O Andar do Bêbado"](http://www.skoob.com.br/o-andar-do-bebado-37134ed40631.html) do físico Leonard Mlodinow. Ele fala de uma maneira bastante leve e divertida sobre como o acaso e a aleatoriedade influenciam nossas vidas.
