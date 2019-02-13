@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notação de '%' em Ruby"
+title:  "Notação de porcentagem em Ruby"
 date:   2015-10-14 00:00:00
 comments: true
 ---
