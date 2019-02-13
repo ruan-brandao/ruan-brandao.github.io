@@ -23,6 +23,30 @@
     }
 }
 
+
+.tweet-button,
+.tweet-button:visited {
+  float: right;
+  margin-top: -7px;
+  margin-right: 1em;
+  padding: .5rem .5rem .5rem 2rem;
+  font-size: 75%;
+  color: #fff;
+  background-color: #55acee;
+  background-image: url('/assets/icons/twitter.png');
+  background-repeat: no-repeat;
+  background-position: .3rem center;
+  background-size: 1.5rem;
+  border: 1px solid #268bd2;
+  border-radius: 3px;
+  transition: background-color .3s;
+}
+
+.tweet-button:hover {
+  text-decoration: none;
+  background-color: #268bd2;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
