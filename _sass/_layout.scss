@@ -47,6 +47,9 @@
   background-color: #268bd2;
 }
 
+.icon {
+  color: black;
+}
 .site-nav {
     float: right;
     line-height: 56px;
@@ -129,11 +132,12 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    line-height: 3;
 }
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: black;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -155,6 +159,7 @@
 }
 
 .footer-col-3 {
+    margin-top: 10px;
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
@@ -204,7 +209,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: black;
 }
 
 .post-link {

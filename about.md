@@ -5,7 +5,7 @@ permalink: /sobre-mim/
 ---
 
 Sou um introvertido sociável. Trabalho como desenvolvedor de software na
-Magnetis, onde tento sempre fazer software de alta qualidade e programo em
+Podium, onde tento sempre fazer software de alta qualidade e programo em
 Ruby, Elixir e JavaScript.
 
 Opiniões do blog são somente minhas.

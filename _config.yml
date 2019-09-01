@@ -1,8 +1,8 @@
 # Site settings
-title: Blog do Ruanito
+title: Blog do Ruan
 email: ruan.bernardo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Introvertido sociável. Desenvolvedor de software na Magnetis e sommelier de
+  Introvertido sociável, desenvolvedor de software e sommelier de
   tweets.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.ruanbrandao.com.br" # the base hostname & protocol for your site
