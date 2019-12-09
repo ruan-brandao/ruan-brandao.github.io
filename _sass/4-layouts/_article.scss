@@ -44,7 +44,7 @@
     .article__title {
       margin-bottom: 20px;
       font-size: 30px;
-      
+
       a {
         color: $dark;
         &:hover {
@@ -63,7 +63,7 @@
       font-size: 12px;
       line-height: 18px;
       text-transform: uppercase;
-      color: $gray;
+      color: $dark;
     }
 
     .article__footer {
@@ -78,7 +78,7 @@
         letter-spacing: 1px;
         text-transform: uppercase;
         border-bottom: 1px solid transparent;
-        color: $gray;
+        color: $dark;
         &:hover {
           color: $dark;
           border-color: $brand-color;

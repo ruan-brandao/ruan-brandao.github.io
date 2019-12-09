@@ -30,7 +30,7 @@
 
   .next-link,
   .previous-link {
-    color: $dark;
+    color: $brand-color;
 
     &:hover {
       color: $black;
@@ -38,12 +38,12 @@
   }
 
   .disabled {
-    color: $gray;
+    color: $dark;
     cursor: not-allowed;
   }
 
   .counter-box {
-    
+
     a, span {
       padding: 0 5px;
       font-size: 15px;
