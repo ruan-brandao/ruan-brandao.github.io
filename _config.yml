@@ -9,10 +9,13 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-compress-images
 
 paginate: 5
 paginate_path: "/page/:num"
 
+compress_images:
+  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
 
 # Pages Path
 defaults:
