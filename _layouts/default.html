@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+  {% if site.data.settings.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-    </div>
+  {% include header.html %}
 
-    {% include footer.html %}
+  <!-- begin content -->
+  <main class="content" aria-label="Conteúdo">
+    {{ content }}
+  </main>
+  <!-- end content -->
 
-  </body>
+  {% include search.html %}
+
+  {% include footer.html %}
+
+  {% include javascripts.html %}
+</body>
 
 </html>

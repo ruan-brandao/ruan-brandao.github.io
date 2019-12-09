@@ -2,9 +2,14 @@
 layout: post
 title:  "Aleatoriedade e o método srand()"
 date:   2015-08-28 00:30:00
-categories: ruby aleatoriedade
+tags: Ruby
+image: dice.jpg
+image-description: Vários dados brancos caindo em frente a um fundo cinza
+image-author: Riho Kroll
+image-author-link: https://unsplash.com/@rihok?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge
 comments: true
 ---
+
 
 Há alguns dias, programando um [projeto pessoal simples](https://github.com/ruan-brandao/lizard-spock), tive que utilizar números aleatórios. E pesquisando sobre técnicas para testar aleatoriedade me deparei com o método [Kernel#srand](http://ruby-doc.org/core-2.2.3/Kernel.html#method-i-srand). Depois de um pouco de pesquisa, aprendi um pouco sobre como este método funciona.
 
@@ -12,7 +17,7 @@ Antes de explicar o método, vale pontuar algumas coisas sobre aleatoriedade e c
 
 De modo geral computadores utilizam a seguinte estratégia para gerar números aleatórios:
 
- - Primeiro, geram um número de seed com base em dados que mudam constantemente como a hora e data atual e ID do processo. 
+ - Primeiro, geram um número de seed com base em dados que mudam constantemente como a hora e data atual e ID do processo.
  - Depois, executam algum algoritmo sobre esse número e, com base neste seed, geram uma sequência de números.
 
 Deste modo, mesmo gerando um número aleatório agora e outro 1 mulissegundo depois, o seed dos dois números será diferente. Assim são gerados números pseudoaleatórios. Números que parecem aleatórios, mas com uma amostra suficientemente grande é possível deduzir qual o próximo número da sequência.

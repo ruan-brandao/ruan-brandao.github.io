@@ -1,13 +1,35 @@
-# Site settings
-title: Blog do Ruan
-email: ruan.bernardo@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Introvertido sociável, desenvolvedor de software e sommelier de
-  tweets.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.ruanbrandao.com.br" # the base hostname & protocol for your site
-twitter_username: RuanBrandao
-github_username:  ruan-brandao
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.ruanbrandao.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 5
+paginate_path: "/page/:num"
+
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
