@@ -1,32 +1,94 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="container">
+  <div class="post-title-box">
+    <div class="row">
+      <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+        <span class="post__date">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%d/%m/%Y' }}</time>
+        </span>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
-      <span class="meta-text">
-        {{ page.date | date: "%d/%m/%Y" }}
-        {% if page.meta %} • {{ page.meta }}{% endif %}
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+
+        <div class="post__info">
+          <div class="post__author">
+            <span>Por</span>
+            <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
+          </div>
+
+          {% if page.tags.size >= 1 %}
+          <div class="post__tags">
+            {% for tag in page.tags %}
+            <!-- Remover acentos de tag na url -->
+              <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% assign no-image = nil %}
+  {% if page.image %}
+    <div class="post__head">
+      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})" alt="{{page.image-description}}"></div>
+    </div>
+
+    {% if page.image-author %}
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="{{page.image-author-link}}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from {{page.image-author}}">
+      <span style="display:inline-block;padding:2px 3px">
+        <svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg>
       </span>
+      <span style="display:inline-block;padding:2px 3px">Imagem por {{page.image-author}}</span>
+    </a>
+    {% endif %}
 
-      <a
-        href='https://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=RuanBrandao'
-        class='tweet-button'
-        target='_blank'
-        rel="noopener"
-      >
-        Tweet
-      </a>
-    </p>
+  {% else %}
+    {% assign no-image = 'post-no-image' %}
+  {% endif %}
 
 
 
-  </header>
+  </div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
 
-</div>
+  <div class="container">
+  <div class="row">
+    <!-- begin post -->
+    <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+
+      <div class="post__content">
+        {{ content }}
+      </div>
+
+      <div class="post__share">
+        <span class="share__title">Compartilhe este texto:</span>
+        <ul class="share__list list-reset">
+
+          <li class="share__item">
+
+              <a href='https://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=RuanBrandao'
+                class='tweet-button'
+                target='_blank'
+                rel="noopener"><i class="ion ion-logo-twitter"></i></a>
+          </li>
+
+        </ul>
+      </div>
+    </article>
+    <!-- end post -->
+    </div>
+  </div>
+
+  <div class="container">
+  {% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
+  </div>

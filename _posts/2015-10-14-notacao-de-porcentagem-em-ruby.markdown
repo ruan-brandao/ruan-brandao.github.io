@@ -1,7 +1,12 @@
 ---
 layout: post
 title:  "Notação de porcentagem em Ruby"
+tags: Ruby
 date:   2015-10-14 00:00:00
+image: code-unsplash.jpg
+image-description: Tela de computador mostrando códigos em alguma linguagem de programação
+image-author: Markus Spiske
+image-author-link: https://unsplash.com/@markusspiske?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge
 comments: true
 ---
 
