@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/valerijaspasojevic/jekyll-compress-images.git
+  revision: af7c2e0527371a7b88d11d594cef9538b83230f1
+  specs:
+    jekyll-compress-images (1.2)
+      image_optim
+      image_optim_pack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,9 +48,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-compress-images (1.2)
-      image_optim
-      image_optim_pack
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -80,7 +85,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jekyll
-  jekyll-compress-images
+  jekyll-compress-images!
   jekyll-paginate
   jekyll-sitemap
   jekyll-tagging

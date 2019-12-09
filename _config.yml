@@ -17,6 +17,16 @@ paginate_path: "/page/:num"
 compress_images:
   images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
 
+imageoptim:
+  allow_lossy: true
+  jpegrecompress:
+    allow_lossy: true
+    quality: 2
+  jpegoptim:
+    allow_lossy: true
+    max_quality: 80
+  svgo: false
+
 # Pages Path
 defaults:
   - scope:
