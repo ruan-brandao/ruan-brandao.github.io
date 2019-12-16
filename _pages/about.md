@@ -11,9 +11,8 @@ Sou um introvertido sociável. Trabalho como desenvolvedor de software na
 Podium, onde tento sempre fazer software de alta qualidade e programo em
 Ruby, Elixir e JavaScript.
 
-Sou um introvertido sociável interessado em desenvolver software de qualidade e discutir como os softwares que desenvolvemos impactam o mundo ao nosso redor.
-
-Também gosto muito de
+Também gosto bastante de falar sobre a indústria de tecnologia em geral e como
+os softwares que desenvolvemos afetam o mundo e a sociedade onde vivemos.
 
 Opiniões do blog são somente minhas.
 
