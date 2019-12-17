@@ -26,6 +26,20 @@ layout: default
           </div>
           {% endif %}
         </div>
+        <div class="post__share">
+          <span class="share__title">Compartilhar texto:</span>
+          <ul class="share__list list-reset">
+
+            <li class="share__item">
+
+                <a href='https://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=RuanBrandao'
+                  class='tweet-button'
+                  target='_blank'
+                  rel="noopener"><i class="ion ion-logo-twitter"></i></a>
+            </li>
+
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -71,7 +85,7 @@ layout: default
       </div>
 
       <div class="post__share">
-        <span class="share__title">Compartilhe este texto:</span>
+        <span class="share__title">Compartilhar texto:</span>
         <ul class="share__list list-reset">
 
           <li class="share__item">
