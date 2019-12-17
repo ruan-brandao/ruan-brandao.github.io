@@ -6,3 +6,8 @@ images/eu.jpg: eu.jpg
 images/eu-palestrando.jpg: eu-palestrando.jpg
 images/logo.svg: logo.svg
 images/black-panther-unsplash2.jpg: black-panther-unsplash2.jpg
+images/git-commits/long-commit-message.png: long-commit-message.png
+images/git-commits/collapsed-commit-message.png: collapsed-commit-message.png
+images/git-logo.png: git-logo.png
+images/git-icon.png: git-icon.png
+images/paper-pencil.jpg: paper-pencil.jpg
