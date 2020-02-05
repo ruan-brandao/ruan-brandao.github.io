@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Como fazer um bom commit no Git"
+title:  "Como fazer bons commits no Git"
 date:   2020-02-04 21:15:00
 tags:   Git
 image: paper-pencil.jpg
