@@ -1,0 +1,27 @@
+page:
+  lang: pt-BR
+
+author:
+  hello: Olá, eu sou o
+  bio: Introvertido sociável interessado em desenvolver software de qualidade e discutir como os softwares que desenvolvemos impactam o mundo ao nosso redor.
+  social: Redes sociais
+  image-description: Foto de Ruan Brandão
+
+posts:
+  latest: Últimas postagens
+  keep-reading: Continuar lendo
+
+pages:
+  previous: Página anterior
+  next: Próxima página
+
+footer:
+  made: Feito com
+
+post:
+  by: Por
+  share: Compartilhar texto
+  image: Imagem por
+
+about:
+  title: Sobre mim

@@ -10,6 +10,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-compress-images
+  - jekyll-multiple-languages-plugin
 
 paginate: 5
 paginate_path: "/page/:num"
@@ -26,6 +27,9 @@ imageoptim:
     allow_lossy: true
     max_quality: 80
   svgo: false
+
+languages: ['pt', 'en']
+# exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages Path
 defaults:
