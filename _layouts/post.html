@@ -13,8 +13,8 @@ layout: default
 
         <div class="post__info">
           <div class="post__author">
-            <span>Por</span>
-            <a href="{{ site.baseurl }}/sobre-mim/" class="author-name">{{site.data.settings.author.name}}</a>
+            <span>{% t post.by %}</span>
+            <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
           </div>
 
           {% if page.tags.size >= 1 %}
@@ -27,7 +27,7 @@ layout: default
           {% endif %}
         </div>
         <div class="post__share">
-          <span class="share__title">Compartilhar texto:</span>
+          <span class="share__title">{% t post.share %}:</span>
           <ul class="share__list list-reset">
 
             <li class="share__item">
@@ -62,7 +62,7 @@ layout: default
           <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
         </svg>
       </span>
-      <span style="display:inline-block;padding:2px 3px">Imagem por {{page.image-author}}</span>
+      <span style="display:inline-block;padding:2px 3px">{% t post.image %} {{page.image-author}}</span>
     </a>
     {% endif %}
 
@@ -85,7 +85,7 @@ layout: default
       </div>
 
       <div class="post__share">
-        <span class="share__title">Compartilhar texto:</span>
+        <span class="share__title">{% t post.share %}:</span>
         <ul class="share__list list-reset">
 
           <li class="share__item">

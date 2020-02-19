@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sobre Mim
-permalink: /sobre-mim/
+title: about.title
+permalink: /about/
 image: eu-palestrando.jpg
 ---
 

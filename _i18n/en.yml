@@ -1,0 +1,27 @@
+page:
+  lang: en
+
+author:
+  hello: Hello, I am
+  bio: Full Stack Developer from São Paulo, Brazil. I am a sociable introvert keen to develop great software and discuss how the various software we produce impact the world around us.
+  social: Follow Me
+  image-description: Picture of Ruan Brandão
+
+posts:
+  latest: Latest posts
+  keep-reading: Keep reading
+
+pages:
+  previous: Previous page
+  next: Next page
+
+footer:
+  made: Powered by
+
+post:
+  by: By
+  share: Share post
+  image: Image by
+
+about:
+  title: About Me
