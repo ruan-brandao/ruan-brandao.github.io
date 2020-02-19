@@ -33,6 +33,9 @@ Caso queira entrar em contato comigo, me [mande um e-mail](mailto:ruan.bernardo@
 ### Ética no Desenvolvimento de Software
 * [Slides da palestra](https://speakerdeck.com/ruanbrandao/etica-no-desenvolvimento-de-software)
 
+### Ethics in Software Development
+* [Slides da palestra](https://speakerdeck.com/ruanbrandao/software-ethics)
+
 ### Narrativas no Desenvolvimento de Software
 * [Slides da palestra](https://speakerdeck.com/ruanbrandao/narrativas-no-desenvolvimento-de-software)
 * [Matéria citando a palestra](https://noticias.r7.com/tecnologia-e-ciencia/13-edicao-da-rubyconf-brasil-reune-36-palestrantes-em-sao-paulo-03122019)
