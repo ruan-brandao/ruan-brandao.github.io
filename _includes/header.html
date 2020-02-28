@@ -36,6 +36,13 @@
               {% endif %}
                 {% endunless %}
               {% endfor %}
+              <li class="nav__item">
+                {% if site.lang == "pt" %}
+                  <a class="nav__link" href="{{ site.baseurl_root }}/en" >{% t global.english %}</a>
+                {% elsif site.lang == "en" %}
+                  <a class="nav__link" href="/" >{% t global.portuguese %}</a>
+                {% endif %}
+              </li>
             </ul>
 
           </div>

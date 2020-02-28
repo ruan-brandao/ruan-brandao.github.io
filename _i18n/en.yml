@@ -1,3 +1,7 @@
+global:
+  portuguese: Ver site em Português 🇧🇷
+  english: English
+
 page:
   lang: en
 
@@ -25,3 +29,8 @@ post:
 
 about:
   title: About Me
+
+not-found:
+  title: Page not found
+  text: This page was not found.
+  back: Back to site
