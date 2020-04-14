@@ -18,6 +18,7 @@ or reach me via [Twitter](https://twitter.com/RuanBrandao).
 
 
 ### Ethics in Software Development (English)
+* [Talk video](https://www.youtube.com/watch?v=mFz22c4N-Cs)
 * [Talk slides](https://speakerdeck.com/ruanbrandao/software-ethics)
 
 ### Web Security Field Guide (English)

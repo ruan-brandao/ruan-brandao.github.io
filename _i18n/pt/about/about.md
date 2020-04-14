@@ -31,4 +31,5 @@ Caso queira entrar em contato comigo, me [mande um e-mail](mailto:ruan.bernardo@
 * [Slides da palestra](https://speakerdeck.com/ruanbrandao/web-vulnerabilities-a-field-guide)
 
 ### Ethics in Software Development
+* [Vídeo da palestra](https://www.youtube.com/watch?v=mFz22c4N-Cs)
 * [Slides da palestra](https://speakerdeck.com/ruanbrandao/software-ethics)
