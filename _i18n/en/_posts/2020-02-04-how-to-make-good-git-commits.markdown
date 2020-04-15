@@ -294,5 +294,3 @@ Here are some resources I used to write this text and that I recommend if you wa
   * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by [Chris Beams](https://twitter.com/cbeams)
 
 If you have any suggestions, questions of feedback about the text you can comment here or reach me on [Twitter](https://twitter.com/RuanBrandao). Thank you!
-
-This text was originally published in my [personal blog](https://ruanbrandao.com.br/2020/02/04/como-fazer-um-bom-commit/).
